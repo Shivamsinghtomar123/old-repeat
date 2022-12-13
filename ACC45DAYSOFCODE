@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here!!
+	
+	int n;
+	cin>>n;
+	
+	while(n--){
+	    int m,k,s;
+	    cin>>m>>k>>s;
+	    
+	    cout<<((s-(m*m))/(k-1))<<endl;
+	}
+	
+	
+	return 0;
+}
